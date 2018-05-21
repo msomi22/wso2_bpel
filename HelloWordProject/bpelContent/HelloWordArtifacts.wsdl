@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<definitions xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:tns="http://wso2.org/bps/sampleArtifacts" xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop" xmlns:wsdl="http://www.example.org/helloWorldWSDLFile/" name="HelloWordArtifacts" targetNamespace="http://wso2.org/bps/sampleArtifacts" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <plnk:partnerLinkType name="clientPartnerNQN">
+    <plnk:role name="helloProcessPLT" portType="wsdl:helloWorldWordPortType"/>
+  </plnk:partnerLinkType>
+  <import location="helloWorldWSDLFile.wsdl" namespace="http://www.example.org/helloWorldWSDLFile/"/>
+</definitions>
